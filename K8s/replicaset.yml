@@ -8,8 +8,8 @@ spec:
     selector: 
       matchExpressions:      
            - # { key: app, operator: In , values: [replicasetapp,  new-app]}
-               { key: app, operator: Exists}
-           #-  { key: app, operator: NotIn , values: [replicasetapp,  new-app]}
+           #-{ key: app, operator: Exists}
+             { key: app, operator: NotIn , values: [replicasetapp,  new-app]}
       #matchLabels: 
             #app: replicasetapp
     replicas: 3
