@@ -17,7 +17,7 @@ spec:
         metadata: 
           labels:
               name: new-app
-              app: replicasetapp  #replicasetapp1 change when using NotIn exp
+              app: replicasetapp1  #replicasetapp1 change when using NotIn exp
         spec:
             containers: 
                 - name: nginx 
